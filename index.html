@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
@@ -9,20 +9,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-
-<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
+</head> 
 <body>
     <div id="root"></div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 </body>
 
 <script>
-    let heading1 = document.createElement("h1");
-    heading1.textContent ="hello world with javascript";
+    // JS way of doing it 
+    // let heading1 = document.createElement("h1");
+    // heading1.textContent ="hello world with javascript";
 
-    let root = document.getElementById("root");
-    root.appendChild(heading1);
+    // let root = document.getElementById("root");
+    // root.appendChild(heading1);
+
+
+    // React Way of doing it 
+    let heading = React.createElement("div", {},[React.createElement("h1", { className: "sahdsahd"}, "hello World from React"),React.createElement("h1", {}, "hello World from React")] );
+    let root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(heading);
 </script>
 </html>
