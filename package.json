@@ -1,0 +1,37 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "react Boiler Plate",
+  "source": "index.html",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel --open chrome",
+    "build": "parcel build --open chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shilparaj/namasteReact.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "shilparajora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shilparaj/namasteReact/issues"
+  },
+  "homepage": "https://github.com/shilparaj/namasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.9.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "open": "^9.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browsersList": [
+    "cover 99.5% in US"
+  ]
+}
