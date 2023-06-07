@@ -1,0 +1,18 @@
+# Parcel Features:
+- Zero Config Bundler
+- Different Dev and prod build
+- Live Server
+- HMR - hot Module Replacement (File watcher algorithm - written c++)
+- Treeshaking
+- Browserslist (which browsers to support in your Project)
+- minification
+- image optimization
+- compresed code
+-  Cache
+- Bundler
+- Code Splitting
+- Constant Hashing 
+- code clean up (remove the console)
+- HTTPS servers too
+- Manages Port numbers 
+- Diffrential Bundling ( different bundles for different browser and differen device browsers)
