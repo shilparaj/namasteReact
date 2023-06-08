@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "react Boiler Plate",
   "source": "index.html",
-  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "start": "parcel --open chrome",
-    "build": "parcel build --open chrome"
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -23,6 +22,8 @@
   },
   "homepage": "https://github.com/shilparaj/namasteReact#readme",
   "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.9.1",
     "process": "^0.11.10"
   },
