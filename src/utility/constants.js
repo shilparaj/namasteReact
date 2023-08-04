@@ -1,0 +1,2 @@
+export const IMAGE_URL = "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
+export const RESTAURANT_DETAIL_URL = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=30.6942091&lng=76.860565&restaurantId="

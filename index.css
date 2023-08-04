@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card {
+    padding: 20px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    border-radius: 20px;
+} */
